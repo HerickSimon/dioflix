@@ -1,0 +1,67 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        margin: 0;
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    header .logo {
+        font-size: 28px;
+    }
+    
+    header nav {
+        display:flex;
+        flex-direction: column;
+    }
+
+    header nav a {
+        margin-top: 10px;
+    }
+
+    .filme-principal {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        align-items: center;
+
+        height: auto;
+    }
+
+    .filme-principal .descricao {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+    width: 90%;
+}
+
+.botao i {
+    margin: 0;
+}
+
+.botoes {
+    justify-content: center;
+}
+
+.container {
+    margin: 0;
+}
+
+.filme-principal .container {
+    width: 80%;
+}
+
+}
